@@ -1,0 +1,12 @@
+#cloud-config
+runcmd:
+  - mkdir /run/algorand
+  - wget https://github.com/algorand/indexer/releases/download/2.9.0/algorand-indexer_linux_amd64_2.9.0.tar.bz2 -O /run/algorand/algorand-indexer_linux_amd64_2.9.0.tar.bz2
+  - wget https://raw.githubusercontent.com/algorand/go-algorand/master/installer/genesis/betanet/genesis.json -O /run/algorand/betanet_genesis.json
+  - mv /run/algorand/algorand-indexer_linux_amd64_2.9.0.tar.bz2 /home/algoranduser/
+  - mv /run/algorand/betanet_genesis.json /home/algoranduser/
+  - chown algoranduser /home/algoranduser/algorand-indexer_linux_amd64_2.9.0.tar.bz2
+  - chown algoranduser /home/algoranduser/betanet_genesis.json
+  - runuser -u algoranduser mkdir /home/algoranduser/indexer
+  - runuser -c "tar -xf /home/algoranduser/algorand-indexer_linux_amd64_2.9.0.tar.bz2 -C /home/algoranduser/indexer" - algoranduser
+  - runuser -c "mv /home/algoranduser/betanet_genesis.json /home/algoranduser/indexer" - algoranduser
