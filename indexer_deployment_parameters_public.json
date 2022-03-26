@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"algorand_key_public_value": {
+			"value": ""
+		},
+		"algorand_indexer_flexible_server_admin": {
+			"value": "algorandindexer"
+		},
+		"algorand_indexer_flexible_server_password": {
+			"value": ""
+		},
+		"cloud_init_base64": {
+			"value": "I2Nsb3VkLWNvbmZpZwpydW5jbWQ6CiAgLSBta2RpciAvcnVuL2FsZ29yYW5kCiAgLSB3Z2V0IGh0\r\ndHBzOi8vZ2l0aHViLmNvbS9hbGdvcmFuZC9pbmRleGVyL3JlbGVhc2VzL2Rvd25sb2FkLzIuOS4w\r\nL2FsZ29yYW5kLWluZGV4ZXJfbGludXhfYW1kNjRfMi45LjAudGFyLmJ6MiAtTyAvcnVuL2FsZ29y\r\nYW5kL2FsZ29yYW5kLWluZGV4ZXJfbGludXhfYW1kNjRfMi45LjAudGFyLmJ6MgogIC0gd2dldCBo\r\ndHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYWxnb3JhbmQvZ28tYWxnb3JhbmQvbWFz\r\ndGVyL2luc3RhbGxlci9nZW5lc2lzL2JldGFuZXQvZ2VuZXNpcy5qc29uIC1PIC9ydW4vYWxnb3Jh\r\nbmQvYmV0YW5ldF9nZW5lc2lzLmpzb24KICAtIG12IC9ydW4vYWxnb3JhbmQvYWxnb3JhbmQtaW5k\r\nZXhlcl9saW51eF9hbWQ2NF8yLjkuMC50YXIuYnoyIC9ob21lL2FsZ29yYW5kdXNlci8KICAtIG12\r\nIC9ydW4vYWxnb3JhbmQvYmV0YW5ldF9nZW5lc2lzLmpzb24gL2hvbWUvYWxnb3JhbmR1c2VyLwog\r\nIC0gY2hvd24gYWxnb3JhbmR1c2VyIC9ob21lL2FsZ29yYW5kdXNlci9hbGdvcmFuZC1pbmRleGVy\r\nX2xpbnV4X2FtZDY0XzIuOS4wLnRhci5iejIKICAtIGNob3duIGFsZ29yYW5kdXNlciAvaG9tZS9h\r\nbGdvcmFuZHVzZXIvYmV0YW5ldF9nZW5lc2lzLmpzb24KICAtIHJ1bnVzZXIgLXUgYWxnb3JhbmR1\r\nc2VyIG1rZGlyIC9ob21lL2FsZ29yYW5kdXNlci9pbmRleGVyCiAgLSBydW51c2VyIC1jICJ0YXIg\r\nLXhmIC9ob21lL2FsZ29yYW5kdXNlci9hbGdvcmFuZC1pbmRleGVyX2xpbnV4X2FtZDY0XzIuOS4w\r\nLnRhci5iejIgLUMgL2hvbWUvYWxnb3JhbmR1c2VyL2luZGV4ZXIiIC0gYWxnb3JhbmR1c2VyCiAg\r\nLSBydW51c2VyIC1jICJtdiAvaG9tZS9hbGdvcmFuZHVzZXIvYmV0YW5ldF9nZW5lc2lzLmpzb24g\r\nL2hvbWUvYWxnb3JhbmR1c2VyL2luZGV4ZXIiIC0gYWxnb3JhbmR1c2VyCg=="
+		}
+	}	
+}
